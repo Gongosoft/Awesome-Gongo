@@ -189,6 +189,72 @@ The MX1 output is only used occasionally as a 2nd input to change the feedback p
 
 </details>
 
+<details>
+<summary><h4>gongogear as seen on <a href='https://www.twitch.tv/thezomo'>twitch.tv/thezomo</a></h4></summary>
+
+##### 23/08/2025
+
+> mirrored from: https://git.zomo.dev/zomo/StreamPlaylistArchive/src/branch/main/stream-setup/hardware.png
+
+```mermaid
+---
+config:
+  look: neo
+---
+flowchart TB
+    Twitch
+
+    subgraph Computer
+        subgraph OBS
+            Emote_Overlay["Emote Overlay"]
+            Game_Capture["Game Capture"]
+            Final_Composite["Final Composite"]
+        end
+
+        subgraph TouchDesigner
+            Camera_Input["Camera Input"]
+            Main_Effects["Main Effects\n(too much to describe)"]
+            Camera_View["Camera View"]
+        end
+
+        Foobar2000["Foobar2000\nw/ Beefweb Remote Control"]
+        Cider_2["Cider 2"]
+    end
+
+    subgraph Modular_Video["Modular Video"]
+        Decoder["Decoder\nSyntonie VU003B"]
+        Potentiometers["some potentiometers\n(working on expanding this)"]
+        Encoder["Encoder\nSyntonie VU007B"]
+    end
+
+    CRT
+    Camera_Out["Camera"]
+    HDMI_Conv["HDMI → Composite → Component"]
+
+    Emote_Overlay --> Main_Effects
+    Game_Capture --> Main_Effects
+
+    Camera_Input --> Main_Effects
+    Camera_Input --> Camera_View
+    Main_Effects --> HDMI_Conv
+
+    Foobar2000 --> Main_Effects
+    Cider_2 --> Main_Effects
+
+    Camera_View --> Final_Composite
+
+    Final_Composite --> Twitch
+    HDMI_Conv --> Decoder
+    Decoder --> Potentiometers
+    Potentiometers --> Encoder
+    Encoder --> CRT
+    CRT --> Camera_Out
+
+    Camera_Out --> Camera_Input
+```
+
+</details>
+
 <br />
 
 <div align='center'>
