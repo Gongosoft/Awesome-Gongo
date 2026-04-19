@@ -112,17 +112,14 @@
 <details>
 <summary><h4>gongogear as seen on <a href='https://www.twitch.tv/greatsphynx'>twitch.tv/greatsphynx</a></h4></summary>
 
+| ![the stuff that make the gongo go](https://raw.githubusercontent.com/Gongosoft/Awesome-Gongo/refs/heads/main/images/gongogear%20as%20seen%20on%20twitch.tv/greatsphynx/gongogear.jpeg) | ![the stuff that make the gongo go](https://raw.githubusercontent.com/Gongosoft/Awesome-Gongo/refs/heads/main/images/gongogear%20as%20seen%20on%20twitch.tv/greatsphynx/osmogear.jpeg) |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 ##### 31/10/2022
 
 > mirrored from: https://imgur.com/a/imyhSDU
 
 this is all the stuff that make the gongo go
-
-<div align='center'>
-	<picture>
-		<img src='./images/gongogear as seen on twitch.tv/greatsphynx/gongogear.jpeg' alt='the stuff that make the gongo go' />
-	</picture>
-</div>
 
 ```mermaid
 ---
@@ -193,6 +190,9 @@ The MX1 output is only used occasionally as a 2nd input to change the feedback p
 
 <details>
 <summary><h4>gongogear as seen on <a href='https://www.twitch.tv/thezomo'>twitch.tv/thezomo</a></h4></summary>
+
+| ![the stuff that make thezomo go](https://raw.githubusercontent.com/Gongosoft/Awesome-Gongo/refs/heads/main/images/gongogear%20as%20seen%20on%20twitch.tv/thezomo/cables.jpg) | ![the stuff that make thezomo go](https://raw.githubusercontent.com/Gongosoft/Awesome-Gongo/refs/heads/main/images/gongogear%20as%20seen%20on%20twitch.tv/thezomo/zomogear.jpg) | ![the stuff thata make thezomo go](https://raw.githubusercontent.com/Gongosoft/Awesome-Gongo/refs/heads/main/images/gongogear%20as%20seen%20on%20twitch.tv/thezomo/windows.jpg) |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ##### 23/08/2025
 
